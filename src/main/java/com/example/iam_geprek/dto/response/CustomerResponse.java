@@ -16,4 +16,5 @@ public class CustomerResponse {
     private String addressCustomer;
     private String phoneCustomer;
     private String emailCustomer;
+    private String customerCode;
 }

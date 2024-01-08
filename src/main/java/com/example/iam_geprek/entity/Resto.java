@@ -16,7 +16,7 @@ public class Resto {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
-    @Column(name = "no_siup", unique = true, nullable = false, length = 30)
+    @Column(name = "no_izin", unique = true, nullable = false, length = 30)
     private String noIzin;
     @Column(name = "name",  nullable = false, length = 100)
     private String name;
@@ -24,4 +24,6 @@ public class Resto {
     private String address;
     @Column(name = "mobile_phone", unique = true, nullable = false, length = 30)
     private String phone;
+    @Column(name = "resto_code")
+    private String restoCode;
 }

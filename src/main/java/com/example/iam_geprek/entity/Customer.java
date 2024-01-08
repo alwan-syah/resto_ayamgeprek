@@ -27,4 +27,6 @@ public class Customer {
     private String phone;
     @Column(name = "email", unique = true, nullable = false, length = 50)
     private String email;
+    @Column(name = "customer_code")
+    private String customerCode;
 }

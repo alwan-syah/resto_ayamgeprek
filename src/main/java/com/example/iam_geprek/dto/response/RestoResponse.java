@@ -15,4 +15,5 @@ public class RestoResponse {
     private String nameRestaurant;
     private String addressRestaurant;
     private String phoneRestaurant;
+    private String restoCode;
 }
